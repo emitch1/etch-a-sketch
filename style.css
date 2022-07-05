@@ -8,5 +8,19 @@
     top: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    border: 2px solid black;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    flex-grow: 0;
+    width: 20%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
 }
