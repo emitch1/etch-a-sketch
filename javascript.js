@@ -32,7 +32,7 @@ function populateGrid(gridSize) {
 function draw() {
     const divs = document.querySelectorAll('.div2');
     divs.forEach((div) => {
-        div.addEventListener('mousedown', () => div.style.backgroundColor = 'black');
+        div.addEventListener('mouseover', () => div.style.backgroundColor = 'black');
     });
 }
 
