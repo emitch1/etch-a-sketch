@@ -1,0 +1,12 @@
+.grid-container {
+    width: 960px;
+    height: 960px;
+    background-color: lightgray;
+    display: flex;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border: 2px solid black;
+}
