@@ -4,7 +4,7 @@ function createGrid() {
     let gridSize = prompt("Indicate grid size (between 1 and 100): ");
     while (gridSize <= 1 || gridSize > 100) {
         
-        gridSize = prompt("Indicate grid size");
+        gridSize = prompt("Indicate grid size (between 1 and 100):");
     } 
     populateGrid(gridSize);
 }
